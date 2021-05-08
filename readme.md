@@ -2,4 +2,11 @@
 
 Hey!Welcome to my Portfolio.
 Currently this project is under developement.Will be live sooner than expected.
+
+
 I am a learner learning from neog.camp
+
+1. Html
+1. Java Script
+1. Java
+1. CSS
