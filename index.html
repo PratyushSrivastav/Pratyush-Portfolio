@@ -1,130 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-
-    <link href="styles.css" rel="stylesheet">
-
+    <title>Home|AdarshScripter</title>
+    <link href="/styles.css" rel="stylesheet">
 </head>
-<body >
-     <h1 >  Web-Dev-Supari's Component Libary.</h1>
-     <p >Web Dev Supari is also knows as Pratyush. Pratyush is a web developement
-         learner at <a href="https://neog.camp/">Neog Camp</a>
-        I want to make this library to enchance my web dev projects.
-        I will be using this in my future projects.
-     </p>
 
-     <hr>
+<body>
+    <nav class="navigation container">
 
-
-     <h2>Typography</h2>
-     <h1> Biggest Heading</h1>
-     <h2> Second biggest heading</h2>
-     <p> Normal Text. Will wrap at end like a paragraph</p>
-     <p>This para will have a <strong >bold</strong> text </p>
-     <small>Relatively smaller text.</small>
-
-     <hr>
-
-     <h2>@containers</h2>
-     <div class="container"> This is a fluid container and will run till the specified width.</div>
-
-     <h3 >center container</h3>
-     <div class="container container-center">This is a center container.Will go till the specified width</div>
-
-     <hr>
-
-     <h2>@Links</h2>
-     <a class="link link-primary"href="/">Primary Link</a>
-     <a href="/" class="link link-secondary">Secondary Link</a>
-
-
-     <hr>
-
-     <h2>@Lists</h2>
-
-     <h3>Unordered List</h3>
-     <p>No bullets</p>
-     <ul class="list-non-bullet">
-         <li>Item one</li>
-         <li>item two</li>
-         <li>Item Three</li>
-     </ul>
-
-     <h3>Uordered Inline List</h3>
-
-     <ul class="list-non-bullet">
-        <li class="list-item-bullet">INLINE Item one</li>
-        <li class="list-item-bullet">INLINE item two</li>
-        <li class="list-item-bullet">ININE Item Three</li>
-    </ul>
- 
-
-     <h3>reverse ordered  List</h3>
-     <ol reversed>
-         <li>milk</li>
-         <li>eggs</li>
-         <li>bread</li>
-     </ol>
-
-
-      <hr>
-
-
-     <h2>@nav</h2>
-     <nav class="navigation container">
-         <div class="nav-dev">Web Developer</div>
-         <ul class="list-non-bullet nav-pills">
-             <li class="list-item-inline"> 
-                 <a  href="/" class="link link-active">Home</a>
-             </li>
-             <li class="list-item-inline">
-                 <a  href="/" class="link ">Projects</a>
-             </li>
-             <li class="list-item-inline">
-                 <a  href="/" class="link ">About</a>
-             </li>
-         </ul>
-        </nav>
-
-         <hr>
-
-         <h2>@Header</h2>
-         <header class="hero">
-             <img class="hero-img" src="images/image1.png" alt="Walking Developer">
-             <h1 class="hero-heading"> Pratyush-<span style="color:var(--primary-color)">The Web Dev</span></h1>
-         </header>
-     
-           <hr>
-
-        <h2>@section</h2>
-        <section>
-        <h3>White Section</h3>
-        <p>This will have white bckgrnd.</p>
+        </div>
+        <div class="nav-dev">Adarsh Scripter</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a href="/" class="link link-active">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="/" class="link ">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="/" class="link ">Blogs</a>
+            </li>
+        </ul>
+    </nav>
+    <header class="hero">
+        <img class="hero-img" src="images/image1.png" alt="Walking Developer">
+        <h1 class="hero-heading"> Adarsh Scripter-<span style="color:var(--primary-color)">The Web Developer</span></h1>
+        <section class="section ow">
+            <div class="container-center">
+                <h1>Technologies</h1>
+                <p>I'm familiar with HTML5,CSS3,GIT,JavaScript,Java,C.</p>
         </section>
 
-        <section>
-            <h3>off white section</h3>
-            <p>This will have gray bckgrnd</p>
+        <section class="section">
+            <div class="container-center">
+                <h1>Projects</h1>
+                <p> To get an enhanced purview of my work and knowledge visit the link below</p>
+                <a class="link link-primary" href="/">View Projects</a>
+            </div>
         </section>
-        <hr>
 
-      <h2>@footer</h2>
-      <footer>
-          <div>Small Heading inside footer</div>
-          <ul>
-              <li>social one</li>
-              <li>social two</li>
-              <li>social three</li>
-          </ul>
-      </footer>
+        <section class="section ow">
+            <div class="container-center">
+                <h1>Blogs</h1>
+                <p>My two cents on my technical and life experiences. Love documenting myself for reminiscing</p>
+                <a href="/" class="link link-secondary">Blogs</a>
+            </div>
+        </section>
 
+        <section class="section">
+            <div class="container-center">
+                <h1>Hobbies</h1>
+                <p>I love to engage myself in different activities. I have acheived small milestones in some of them too. Hop-on!Maybe we share something in common.</p>
+                <a href="/" class="link link-secondary">Know Hobbies</a>
+            </div>
+        </section>
 
+        <footer class="footer">
+            <div class="footer-header">Ping Me On</div>
+            <ul class="social-links list-non-bullet">
+                <li class="list-item-inline"><a class="link" href="/">Git-Hub</a></li>
+                <li class="list-item-inline"><a class="link" href="/">Twitter</a></li>
+                <li class="list-item-inline"><a class="link" href="/">Linkedin</a></li>
+            </ul>
+        </footer>
 
-     <!-- <div style="height:30vh">
-    </div> -->
+    </header>
 </body>
-</html> 
+
+</html>
