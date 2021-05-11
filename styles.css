@@ -80,6 +80,7 @@ hr {
 
 .navigation .nav-pills {
     text-align: right;
+    margin-right: 2rem;
 }
 
 .navigation .link {
