@@ -70,6 +70,7 @@ hr {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    justify-content: space-between;
 
 }
 
@@ -80,7 +81,6 @@ hr {
 
 .navigation .nav-pills {
     text-align: right;
-    margin-right: 2rem;
 }
 
 .navigation .link {
