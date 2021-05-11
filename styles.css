@@ -10,7 +10,7 @@ body {
     font-family: 'Montserrat',
         sans-serif;
         margin:0px;
-       justify-content: center; 
+       max-width:auto;
 }
 
 hr {
@@ -35,6 +35,8 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
 }
 
 .link-primary {
