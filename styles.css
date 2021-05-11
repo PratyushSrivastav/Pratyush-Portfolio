@@ -10,7 +10,6 @@ body {
     font-family: 'Montserrat',
         sans-serif;
         margin:0px;
-       max-width:auto;
 }
 
 hr {
@@ -35,20 +34,22 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
-    /* margin-top: 1rem;
-    margin-bottom: 1rem; */
+    
 }
 
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    line-height: 2rem;
+
 }
 
 .link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+    line-height: 2rem;
 }
 
 
@@ -70,7 +71,7 @@ hr {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
-    justify-content: space-between;
+   max-width: 100%;
 
 }
 
