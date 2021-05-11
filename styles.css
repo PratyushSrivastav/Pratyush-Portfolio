@@ -72,7 +72,6 @@ hr {
     padding: 1rem;
     border-bottom-left-radius: 1rem;
 
-
 }
 
 .nav-dev {
@@ -108,7 +107,7 @@ hr {
 .hero .hero-heading {
     color: var(--dark-gray);
     padding-top: 1rem;
-    text-align: center;
+    text-align:center;
 }
 
 
