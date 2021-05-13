@@ -108,7 +108,7 @@ hr {
 .hero .hero-heading {
     color: var(--dark-gray);
     padding-top: 1rem;
-    text-align:center;
+    text-align:center; 
 }
 
 
